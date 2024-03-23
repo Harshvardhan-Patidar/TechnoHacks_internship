@@ -1,4 +1,5 @@
 CognoRise InfoTech Internship Project!!!!!
+
 Welcome to my internship project repository with CognoRise InfoTech! During this one-month internship, I have undertaken various tasks to enhance my skills in web development using HTML, CSS, and JavaScript. This README serves as a guide to the tasks accomplished and the structure of this repository.
 
 Tasks Completed:-
