@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div id="calculator_outer">
+      <div id="calculator_inner">
+        <div id="display"></div>
+        <span id="input">
+          <span class="incomm"
+            ><span class="com color" id="clean" onclick="clean()">C</span
+            ><span class="com color" id="bracket">()</span
+            ><span class="com color comop" id="modulo" onclick="opration('%')">%</span
+            ><span class="com color comop" id="divison" onclick="opration('/')">/</span></span
+          ><br />
+          <span class="incomm"
+            ><span class="com num" onclick="opration('7')">7</span
+            ><span class="com num" onclick="opration('8')">8</span
+            ><span class="com num" onclick="opration('9')">9</span
+            ><span class="com color comop" id="multiply" onclick="opration('*')">x</span></span
+          ><br />
+          <span class="incomm"
+            ><span class="com num" onclick="opration('4')">4</span
+            ><span class="com num" onclick="opration('5')">5</span
+            ><span class="com num" onclick="opration('6')">6</span
+            ><span class="com color comop" id="substractor" onclick="opration('-')">-</span></span
+          ><br />
+          <span class="incomm"
+            ><span class="com num" onclick="opration('1')">1</span
+            ><span class="com num" onclick="opration('2')">2</span
+            ><span class="com num" onclick="opration('3')">3</span
+            ><span class="com color comop" id="addition" onclick="opration('+')">+</span></span
+          ><br />
+          <span class="incomm"
+            ><span class="com">+/-</span
+            ><span class="com num" onclick="opration('0')">0</span
+            ><span class="com">.</span
+            ><span class="com" id="equal" onclick="result()">=</span></span
+          >
+        </span>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
