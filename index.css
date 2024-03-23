@@ -1,0 +1,23 @@
+#container {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+h2{
+    text-transform: uppercase;
+}
+#countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#countdown span {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-size: 3rem;
+}
+#countdown p{
+    font-family: 'Courier New', Courier, monospace;
+}
